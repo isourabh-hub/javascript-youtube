@@ -7,6 +7,11 @@ accountCity = "Raipur"
 
 console.log(accountId);
 
+
+/*
+prefer not to use var 
+because of issues in block scope and function scope
+*/
 accountEmail = "sr@gmail.com"
 accountCity ="Mumbai"
 
