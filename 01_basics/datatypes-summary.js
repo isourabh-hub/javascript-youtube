@@ -51,3 +51,28 @@ const Myfunction = function(){
     }
 
 console.log(typeof heros)
+
+
+//+++++++++++++++++++++++++++++++++++++++++++++++++
+
+//Stack(primitive) and Heap (non-Primitive)
+
+let myInstagram = "isrbh"
+
+let anotherInstagram = myInstagram
+
+anotherInstagram = "Shourya"
+console.log(anotherInstagram)
+console.log(myInstagram)
+
+let user1 = {
+email: "user@gmail.com",
+mobile: 1234567895,
+}
+
+let user2 = user1
+
+user2.email ="new@gmail.com"
+
+console.log(user1.email)
+console.log(user2.email)
